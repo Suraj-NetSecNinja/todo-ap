@@ -6,7 +6,7 @@ app = FastAPI()
 # In-memory task list
 tasks = []
 
-# Define the structure of a task
+# Define the structure of a tasks
 class Task(BaseModel):
     id: int
     title: str
